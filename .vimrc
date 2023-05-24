@@ -1,9 +1,9 @@
-set nu
-syntax on
-set autoindent
-set cindent
+call plug#begin()
 
-set tabstop		=4
-set softtabstop	=4
-set shiftwidth	=4
-"set expandtab
+Plug 'tpope/vim-sensible'
+Plug 'pearofducks/ansible-vim'
+
+call plug#end()
+
+set nu
+set rnu
